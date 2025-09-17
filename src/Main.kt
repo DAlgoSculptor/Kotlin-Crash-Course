@@ -226,15 +226,28 @@
 
 
 
-fun main(){
-    println("Enter your numbers to check , Is it Even or Odd? ")
+//fun main(){
+//    println("Enter your numbers to check , Is it Even or Odd? ")
+//
+//    val input= readln()
+//    val inputAsInteger= input.toIntOrNull()
+//    if (inputAsInteger !=null){
+//        val isEven= inputAsInteger % 2==0
+//        println("The Given input is $inputAsInteger , $isEven")
+//    }else{
+//        println(" GIven input is Invalid !! ")
+//    }
+//}
 
+
+
+fun main(){
+    println("Enter your name")
     val input= readln()
-    val inputAsInteger= input.toIntOrNull()
-    if (inputAsInteger !=null){
-        val isEven= inputAsInteger % 2==0
-        println("The Given input is $inputAsInteger , $isEven")
-    }else{
-        println(" GIven input is Invalid !! ")
-    }
+    println("Your name is $input")
+
+    println("Enter your price in $ ")
+    val input1 = readln()
+    val input1AsInteger= input1.toIntOrNull()
+    println("Your Product price is $input1AsInteger")
 }
