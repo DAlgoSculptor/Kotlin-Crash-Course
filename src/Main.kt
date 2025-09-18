@@ -254,19 +254,36 @@
 
 
 // WAP to check Even and Odd
+//
+//fun main(){
+//    println("Enter your number ")
+//    val input = readln()
+//    val inputAsInteger= input.toIntOrNull()
+//    if (inputAsInteger !=null){
+//        val isEven= inputAsInteger % 2 ==0
+//        if (isEven){
+//            println("The given number $inputAsInteger is an Even number !")
+//        }else{
+//            println("The given number $inputAsInteger is an Odd number !")
+//        }
+//    }else{
+//        println("Hey Dude !! Enter Valid number")
+//    }
+//}
+
+
 
 fun main(){
     println("Enter your number ")
+
     val input = readln()
     val inputAsInteger= input.toIntOrNull()
     if (inputAsInteger !=null){
-        val isEven= inputAsInteger % 2 ==0
-        if (isEven){
-            println("The given number $inputAsInteger is an Even number !")
-        }else{
-            println("The given number $inputAsInteger is an Odd number !")
+        val output= if(inputAsInteger % 2 ==0){
+            "the given "
+        } else {
+
         }
-    }else{
-        println("Hey Dude !! Enter Valid number")
+
     }
 }
